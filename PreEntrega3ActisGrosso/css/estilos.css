@@ -1,40 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Open+Sans:ital@1&display=swap");
-body {
-  font-family: sans-serif;
-  background: linear-gradient(to bottom, #ffffff, #ffafbd);
-  font-style: italic;
+@font-face {
+  font-family: "A Note", sans-serif;
+  src: url(../assets/Fuentes/A\ Note.ttf) format("truetype");
 }
-
 .div-header {
-  box-shadow: 0px 2px 6px rgba(27, 244, 255, 0.269);
+  box-shadow: 0px 2px 6px rgba(193, 47, 255, 0.269);
 }
 .div-header .navbar .text-focus-in {
   -webkit-animation: text-focus-in 1s ease-in both;
   animation: text-focus-in 1s ease-in both;
 }
-.div-header .navbar .navbar-nav {
-  background-color: #ffffff;
-}
-.div-header .navbar .navbar-nav:hover {
-  color: #1966aa;
-}
-.div-header .navbar .navbar-nav .container .nav-link {
-  color: #333;
-  font-weight: bold;
-  transition: 0.3s;
-}
-.div-header .navbar .navbar-nav .container .nav-link:hover {
-  color: #6c757d;
-}
-.div-header .navbar .nav-link .navbar-brand {
-  font-family: "Lato", sans-serif;
-  font-weight: bold;
-}
 
 .div-index-main .contbannerh5 {
-  font-family: "Open Sans", sans-serif;
-  text-decoration-color: bisque;
-  background-color: rgba(0, 72, 255, 0.346);
+  font-family: "A NOTE";
+  text-decoration-color: #ffe4c4;
+  background-color: rgba(0, 72, 255, 0.3450980392);
 }
 
 @-webkit-keyframes text-focus-in {
@@ -82,4 +61,18 @@ body {
   padding-bottom: 1.5rem;
 }
 
-/* ____________________________________________________________________ *//*# sourceMappingURL=estilos.css.map */
+.card-textA {
+  text-decoration-color: aqua;
+}
+
+.card-textB {
+  text-decoration-color: aqua;
+}
+
+/* shadow,header */
+/* banner carrousel */
+body {
+  font-family: "A Note";
+  background: linear-gradient(to bottom, #ffffff, #ffafbd);
+  font-style: italic;
+}/*# sourceMappingURL=estilos.css.map */

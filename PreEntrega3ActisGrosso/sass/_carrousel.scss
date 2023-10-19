@@ -1,11 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Open+Sans:ital@1&display=swap');
-
 .div-index-main{
     
     .contbannerh5 {
-        font-family: 'Open Sans', sans-serif;
-        text-decoration-color: bisque;
-        background-color: rgba(0, 72, 255, 0.346);
+        font-family: 'A NOTE';
+        text-decoration-color: $color-letterCarrousel;
+        background-color: $color-bgletterCarrrousel;
         
     }
 }

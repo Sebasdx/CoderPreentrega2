@@ -15,5 +15,8 @@
     "url": "https://github.com/Sebasdx/coderentrega2/issues"
   },
   "homepage": "https://github.com/Sebasdx/coderentrega2#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
 }

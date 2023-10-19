@@ -1,7 +1,8 @@
-body{
-    font-family: sans-serif;
-    background: linear-gradient(to bottom,#ffffff, #ffafbd);
-    font-style: italic;
+@font-face {
+    font-family: 'A Note', sans-serif;
+    src: url(../assets/Fuentes/A\ Note.ttf) format('truetype');
 }
+
+$font-note: 'A Note';
 
 

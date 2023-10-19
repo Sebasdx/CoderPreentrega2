@@ -1,32 +1,12 @@
-.div-header {
-    box-shadow: 0px 2px 6px rgba(27, 244, 255, 0.269);
+$color-shadow: red;
 
+.div-header {
+    box-shadow: 0px 2px 6px $color-shadow;
     .navbar {
         .text-focus-in {
             -webkit-animation: text-focus-in 1s ease-in both;
-                    animation: text-focus-in 1s ease-in both;
-        }
-        .navbar-nav {
-            background-color: #ffffff;
-            &:hover {
-                color: #1966aa;
-            }
-            .container {
-                .nav-link {
-                    color: #333;
-                    font-weight: bold;
-                    transition: 0.3s;
-                    &:hover {
-                        color: #6c757d;
-                    }
-                }
-            }
-        }
-        .nav-link {
-            .navbar-brand {
-                font-family: 'Lato', sans-serif;
-                font-weight: bold;
-            }
+            animation: text-focus-in 1s ease-in both;
         }
     }
 }
+        
