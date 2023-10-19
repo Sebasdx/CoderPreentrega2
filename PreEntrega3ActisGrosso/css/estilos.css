@@ -1,31 +1,85 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Open+Sans:ital@1&display=swap');
-
-body{
-    font-family: lato,sans-serif;
-}
-.navbar {
-    background-color: #ffffff;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Open+Sans:ital@1&display=swap");
+body {
+  font-family: sans-serif;
+  background: linear-gradient(to bottom, #ffffff, #ffafbd);
+  font-style: italic;
 }
 
-.navbar-brand {
-    font-family: 'Lato', sans-serif;
-    font-weight: bold;
+.div-header {
+  box-shadow: 0px 2px 6px rgba(27, 244, 255, 0.269);
+}
+.div-header .navbar .text-focus-in {
+  -webkit-animation: text-focus-in 1s ease-in both;
+  animation: text-focus-in 1s ease-in both;
+}
+.div-header .navbar .navbar-nav {
+  background-color: #ffffff;
+}
+.div-header .navbar .navbar-nav:hover {
+  color: #1966aa;
+}
+.div-header .navbar .navbar-nav .container .nav-link {
+  color: #333;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.div-header .navbar .navbar-nav .container .nav-link:hover {
+  color: #6c757d;
+}
+.div-header .navbar .nav-link .navbar-brand {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
 }
 
-.navbar-nav .nav-link {
-    color: #333;
-    font-weight: bold;
-    transition: 0.3s;
+.div-index-main .contbannerh5 {
+  font-family: "Open Sans", sans-serif;
+  text-decoration-color: bisque;
+  background-color: rgba(0, 72, 255, 0.346);
 }
 
-.navbar-nav .nav-link:hover {
-    color: #6c757d;
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+.div-card-start {
+  padding-left: 7rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
-.contbannerh5 {
-    font-family: 'Open Sans', sans-serif;
-    text-decoration-color: bisque;
-    background-color: rgba(0, 72, 255, 0.346);
-
+.bg-card-index {
+  background-color: transparent;
 }
+
+.div-card-center {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.div-card-end {
+  padding-right: 7rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+/* ____________________________________________________________________ *//*# sourceMappingURL=estilos.css.map */
