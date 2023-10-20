@@ -46,29 +46,14 @@
   box-shadow: 0px 3px 2px rgb(215, 35, 231);
 }
 
-/* 
-.div-card-start{
-    padding-left: 7rem;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-}
- */
 .bg-card-index {
   background-color: rgba(236, 43, 236, 0.101);
 }
 
-/* 
-.div-card-center{
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-}
-.div-card-end{
-    padding-right: 7rem;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-} */
 body {
   font-family: "A Note";
   background: #ffffff;
   background: linear-gradient(to bottom, #ffffff, #fec5e4);
-}/*# sourceMappingURL=estilos.css.map */
+}
+
+/*# sourceMappingURL=estilos.css.map */
