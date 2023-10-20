@@ -1,19 +1,15 @@
-.div-card-start{
-    padding-left: 7rem;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-}
-
 .bg-card-index{
-    background-color: transparent;
+    background-color: rgba(236, 43, 236, 0.101)
 }
 
-.div-card-center{
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-}
-.div-card-end{
-    padding-right: 7rem;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-}
+.div-card-start {
+    @extend .div-card-start;
+  }
+  
+  .div-card-center {
+    @extend .div-card-center;
+  }
+  
+  .div-card-end {
+    @extend .div-card-end;
+  }

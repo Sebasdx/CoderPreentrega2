@@ -2,20 +2,8 @@
   font-family: "A Note", sans-serif;
   src: url(../assets/Fuentes/A\ Note.ttf) format("truetype");
 }
-.div-header {
-  box-shadow: 0px 2px 6px rgba(193, 47, 255, 0.269);
-}
-.div-header .navbar .text-focus-in {
-  -webkit-animation: text-focus-in 1s ease-in both;
-  animation: text-focus-in 1s ease-in both;
-}
-
-.div-index-main .contbannerh5 {
-  font-family: "A NOTE";
-  text-decoration-color: #ffe4c4;
-  background-color: rgba(0, 72, 255, 0.3450980392);
-}
-
+/* colores */
+/*  efecto blur del texto titulo del header */
 @-webkit-keyframes text-focus-in {
   0% {
     -webkit-filter: blur(12px);
@@ -40,39 +28,47 @@
     opacity: 1;
   }
 }
-.div-card-start {
-  padding-left: 7rem;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+.div-index-main .contbannerh5 {
+  font-family: "A NOTE";
+  text-decoration-color: #ffe4c4;
+  background-color: rgba(236, 43, 236, 0.493);
 }
 
+.div-header {
+  box-shadow: 0px 2px 6px rgb(215, 35, 231);
+}
+.div-header .navbar .text-focus-in {
+  -webkit-animation: text-focus-in 1s ease-in both;
+  animation: text-focus-in 1s ease-in both;
+}
+
+.div-carro {
+  box-shadow: 0px 3px 2px rgb(215, 35, 231);
+}
+
+/* 
+.div-card-start{
+    padding-left: 7rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+ */
 .bg-card-index {
-  background-color: transparent;
+  background-color: rgba(236, 43, 236, 0.101);
 }
 
-.div-card-center {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+/* 
+.div-card-center{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
-
-.div-card-end {
-  padding-right: 7rem;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
-.card-textA {
-  text-decoration-color: aqua;
-}
-
-.card-textB {
-  text-decoration-color: aqua;
-}
-
-/* shadow,header */
-/* banner carrousel */
+.div-card-end{
+    padding-right: 7rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+} */
 body {
   font-family: "A Note";
-  background: linear-gradient(to bottom, #ffffff, #ffafbd);
-  font-style: italic;
+  background: #ffffff;
+  background: linear-gradient(to bottom, #ffffff, #fec5e4);
 }/*# sourceMappingURL=estilos.css.map */

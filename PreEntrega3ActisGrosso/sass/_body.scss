@@ -1,5 +1,5 @@
 body{
     font-family: $font-note;
-    @include gradient(#ffffff, #ffafbd, bottom);
-    font-style: italic;
+    @include gradient($color-gradient1, $color-gradient2);
+    
 };
