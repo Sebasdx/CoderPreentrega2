@@ -1,0 +1,27 @@
+footer {
+    bottom: 0;
+    height: auto;
+    width: auto;
+    .footer-text {
+      color: white;
+      transition: color 0.3s;
+        &:hover {
+        color: #ff0066;
+        
+      }
+      .warning-margin{
+        margin-bottom: 1%;
+      }
+    }
+    .footer-botom {
+      text-align: center;
+      background-color: $background-footer;
+      .text-foot-logo{
+        font-size: $size-font-footer-logo;
+        color: $text-color1;
+        cursor:default;
+      }  
+    }
+    
+  }
+  

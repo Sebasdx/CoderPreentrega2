@@ -5,6 +5,9 @@ $color-gradient1:  #ffffff;
 $color-gradient2: #fec5e4;
 $color-letterCarrousel: #ffe4c4;
 $color-bgletterCarrrousel:  rgba(236, 43, 236, 0.493);
+$size-font-footer-logo: 80px;
+$text-color1:white;
+$background-footer:#212529;
 
 /*  efecto blur del texto titulo del header */
 
@@ -32,4 +35,18 @@ $color-bgletterCarrrousel:  rgba(236, 43, 236, 0.493);
       opacity: 1;
     }
   }
+
+/* Pulso */
+
+@keyframes pulse {
+  0% {
+    color: #000; // 
+  }
+  50% {
+    color: #ff0066;
+  }
+  100% {
+    color: #000; 
+  }
+}
 

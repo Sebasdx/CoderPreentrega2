@@ -2,6 +2,11 @@
   font-family: "A Note", sans-serif;
   src: url(../assets/Fuentes/A\ Note.ttf) format("truetype");
 }
+.pulse-text {
+  animation: pulse 4s infinite;
+  color: #000;
+}
+
 /* colores */
 /*  efecto blur del texto titulo del header */
 @-webkit-keyframes text-focus-in {
@@ -28,12 +33,18 @@
     opacity: 1;
   }
 }
-.div-index-main .contbannerh5 {
-  font-family: "A NOTE";
-  text-decoration-color: #ffe4c4;
-  background-color: rgba(236, 43, 236, 0.493);
+/* Pulso */
+@keyframes pulse {
+  0% {
+    color: #000;
+  }
+  50% {
+    color: #ff0066;
+  }
+  100% {
+    color: #000;
+  }
 }
-
 .div-header {
   box-shadow: 0px 2px 6px rgb(215, 35, 231);
 }
@@ -46,14 +57,83 @@
   box-shadow: 0px 3px 2px rgb(215, 35, 231);
 }
 
-.bg-card-index {
-  background-color: rgba(236, 43, 236, 0.101);
+.card-img-top {
+  /*  width: 200px; */
+  transition: transform 0.3s;
+}
+.card-img-top img {
+  width: 100%;
+  height: auto;
+  /* display: block; */
+}
+.card-img-top:hover {
+  transform: scale(1.05);
 }
 
 body {
+  height: auto;
+  padding: 0;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: "A Note";
   background: #ffffff;
   background: linear-gradient(to bottom, #ffffff, #fec5e4);
 }
 
-/*# sourceMappingURL=estilos.css.map */
+.section {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  height: auto;
+}
+.section .card-img {
+  max-block-size: 200px;
+  height: auto;
+  width: auto;
+}
+
+@media (max-width: 768px) {
+  .section {
+    height: auto;
+  }
+}
+.bg-card-index {
+  background-color: rgba(236, 43, 236, 0.101);
+}
+
+.div-carrousel .contbannerh5 {
+  font-family: "A NOTE";
+  text-decoration-color: #ffe4c4;
+  background-color: rgba(236, 43, 236, 0.493);
+}
+
+footer {
+  bottom: 0;
+  height: auto;
+  width: auto;
+}
+footer .footer-text {
+  color: white;
+  transition: color 0.3s;
+}
+footer .footer-text:hover {
+  color: #ff0066;
+}
+footer .footer-text .warning-margin {
+  margin-bottom: 1%;
+}
+footer .footer-botom {
+  text-align: center;
+  background-color: #212529;
+}
+footer .footer-botom .text-foot-logo {
+  font-size: 80px;
+  color: white;
+  cursor: default;
+}
+
+.btn-enviar {
+  color: white;
+  background-color: rgb(215, 35, 231);
+  width: 10%;
+}/*# sourceMappingURL=estilos.css.map */

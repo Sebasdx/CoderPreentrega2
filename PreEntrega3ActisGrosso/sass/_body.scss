@@ -1,5 +1,27 @@
 body{
+    height: auto;
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: $font-note;
-    @include gradient($color-gradient1, $color-gradient2);
+    @include gradient($color-gradient1, $color-gradient2)
+}
+    .section{
+        margin-top: 1%;
+        margin-bottom: 1%;
+        height: auto;
     
-};
+    .card-img{
+        max-block-size: 200px;
+        height: auto;
+        width: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .section {
+      height: auto;
+    }
+    
+}

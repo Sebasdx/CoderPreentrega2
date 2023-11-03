@@ -4,3 +4,8 @@
 }
 
 $font-note: 'A Note';
+
+.pulse-text {
+    animation: pulse 4s infinite; 
+    color: #000; 
+  }

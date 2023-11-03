@@ -11,3 +11,19 @@
 .div-carro{
     box-shadow: 0px 3px 2px $color-shadow; 
 }
+
+.card-img-top {
+   /*  width: 200px; */ // Ancho inicial de tu contenedor de imagen
+    transition: transform 0.3s; // Agrega una animación suave a la transformación
+  
+    img {
+      width: 100%; // Ancho inicial de la imagen
+      height: auto; // Ajusta la altura automáticamente
+      /* display: block; */ // Elimina el espacio en blanco debajo de la imagen
+    }
+  
+    &:hover {
+      transform: scale(1.05); // Aplica un aumento del 10% al pasar el cursor sobre el contenedor
+    }
+  }
+  
